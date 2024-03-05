@@ -1,0 +1,4 @@
+#!/bin/sh
+cd ..
+./AlEliteDangerousAPI/bin/Debug/net6.0/AlEliteDangerousAPI -loglevel Debug -highest -profit 20000 -age 12
+

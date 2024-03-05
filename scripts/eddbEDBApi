@@ -1,0 +1,6 @@
+#!/bin/sh
+cd ..
+#./AlEliteDangerousAPI/bin/Debug/net6.0/AlEliteDangerousAPI -loglevel Debug -eddb -demand 10000 -profit 10000
+#./AlEliteDangerousAPI/bin/Debug/net6.0/AlEliteDangerousAPI -loglevel Debug -eddb -demand 20000 -profit 20000  -dist 1000 -jumprange 50
+./AlEliteDangerousAPI/bin/Debug/net6.0/AlEliteDangerousAPI -eddb -profit 14000 -demand 20000 -age 12
+

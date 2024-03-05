@@ -1,0 +1,9 @@
+#!/bin/sh
+cp /home/alwynd/alwyn/AlEliteDangerousAPI/Data/EDDB/TradeOutput.csv /home/alwynd/alwyn/AlEliteDangerousAPI/Export/
+cp /home/alwynd/alwyn/AlEliteDangerousAPI/Data/EDDB/TradeOutputShortJumps.csv /home/alwynd/alwyn/AlEliteDangerousAPI/Export/
+cp /home/alwynd/alwyn/AlEliteDangerousAPI/Data/EDDB/DataStats.csv /home/alwynd/alwyn/AlEliteDangerousAPI/Export/
+cp /home/alwynd/alwyn/AlEliteDangerousAPI/Data/EDDB/TradeOutputMultihop.csv /home/alwynd/alwyn/AlEliteDangerousAPI/Export/
+cp /home/alwynd/alwyn/AlEliteDangerousAPI/Data/EDDB/TradeOutputHighest.csv /home/alwynd/alwyn/AlEliteDangerousAPI/Export/
+
+azcopy sync --delete-destination true "/home/alwynd/alwyn/AlEliteDangerousAPI/Export/" "https://gfgssitestorage.blob.core.windows.net/\$web/eddb/?sv=2021-06-08&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2023-12-20T19:10:23Z&st=2022-12-20T11:10:23Z&spr=https&sig=Azk8z%2BPCp1Dk8HPBOC9YT5w7zsMl4ysoSN6u6LYxlQI%3D"
+

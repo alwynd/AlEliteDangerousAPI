@@ -1,0 +1,4 @@
+#!/bin/sh
+cd ..
+./AlEliteDangerousAPI/bin/Debug/net6.0/AlEliteDangerousAPI -clean
+

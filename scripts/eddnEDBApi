@@ -1,0 +1,6 @@
+#!/bin/sh
+rm -rf ./stop.stop
+
+cd ..
+./AlEliteDangerousAPI/bin/Debug/net6.0/AlEliteDangerousAPI -loglevel Debug -eddn
+
